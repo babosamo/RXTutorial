@@ -3,4 +3,14 @@
     <string name="title_home">"What's RX"</string>
     <string name="title_observable">Observable</string>
     <string name="title_operator">Operators</string>
+
+    <string-array name="observable_array">
+        <item>Creating</item>
+        <item>Transforming</item>
+        <item>Filtering</item>
+        <item>Combining</item>
+        <item>Conditional and Boolean</item>
+        <item>Mathematical and Aggregate</item>
+        <item>Backpressure</item>
+    </string-array>
 </resources>

@@ -8,6 +8,7 @@
     tools:context=".ObservableView">
 
     <TextView
+        android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -16,5 +17,12 @@
         android:text="1. observable 별 설명, 예제, 사용법 제공\n2. reactivex link 나 wiki link 활용 \n3. 마블 다이어 그램 \n4. 사용 예제"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
 
 </android.support.constraint.ConstraintLayout>
